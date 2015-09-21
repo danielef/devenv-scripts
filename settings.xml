@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0  http://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <profiles>
+    <profile>
+      <id>gits-dev</id>
+      <repositories>
+        <repository>
+          <id>gits-release</id>
+          <name>GITS RELEASE Repository</name>
+          <url>http://repo.cognicio.us/content/repositories/gits-release/</url>
+        </repository>
+        <repository>
+          <id>gits-snapshot</id>
+          <name>GITS SNAPSHOT Repository</name>
+          <url>http://repo.cognicio.us/content/repositories/gits-snapshot/</url>
+        </repository>
+        <repository>
+          <id>third-party</id>
+          <name>Third Party Repository</name>
+          <url>http://repo.cognicio.us/content/repositories/thirdparty/</url>
+        </repository>
+      </repositories>
+    </profile>
+  </profiles>
+  <servers>
+    <!-- Uploads snapshot artifacts to Sonatype Nexus -->
+    <server>
+      <id>gits-snapshot</id>
+      <username>admin</username>
+      <password>somesecret</password>
+    </server>
+  </servers>
+  <!-- Default profile -->
+  <activeProfiles>
+    <activeProfile>gits-dev</activeProfile>
+  </activeProfiles>
+</settings>
