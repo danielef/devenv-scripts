@@ -15,7 +15,7 @@ export TERM='xterm-color'
 # Turn the prompt symbol red if the user is root
 if [ $( id -u ) -eq 0 ];
 then # you are root, make the prompt red
-    export PS1='\[\e[0;31m\]\u\[\e[0m\]@\[\e[0;31m\]\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ '
+    export PS1='\[\e[1;31m\]\u\[\e[0m\]@\[\e[1;31m\]\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ '
 else
-    export PS1='\[\e[0;32m\]\u\[\e[0m\]@\[\e[0;32m\]\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ '
+    export PS1='\[\e[1;32m\]\u\[\e[0m\]@\[\e[1;32m\]\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ '
 fi
