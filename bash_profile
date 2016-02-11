@@ -8,14 +8,21 @@ alias ls='ls -G'
 alias github='/Applications/GitHub\ Desktop.app/Contents/MacOS/GitHub\ Desktop'
 alias finder='open -a Finder ./'
 
+# Application directories
+# MacTex
+export MACTEX_DIR='/usr/local/texlive/2015/bin/x86_64-darwin/'
+
 # Prompt
 export CLICOLOR=1
 export TERM='xterm-color'
 
+# Path
+export PATH=$PATH:$MACTEX_DIR
+
 # Turn the prompt symbol red if the user is root
 if [ $( id -u ) -eq 0 ];
 then # you are root, make the prompt red
-    export PS1='\[\e[1;31m\]\u\[\e[0m\]@\[\e[1;31m\]\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ '
+    export PS1='\[\e[1;31m\]\u\[\e[0m\]@\[\e[1;32m\]\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ '
 else
     export PS1='\[\e[1;32m\]\u\[\e[0m\]@\[\e[1;32m\]\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ '
 fi
