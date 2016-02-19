@@ -12,12 +12,15 @@ alias finder='open -a Finder ./'
 # MacTex
 export MACTEX_DIR='/usr/local/texlive/2015/bin/x86_64-darwin/'
 
+# PostgreSQL from http://postgresapp.com/
+export PGAPP_DIR='/Applications/Postgres.app/Contents/Versions/latest/bin/'
+
 # Prompt
 export CLICOLOR=1
 export TERM='xterm-color'
 
 # Path
-export PATH=$PATH:$MACTEX_DIR
+export PATH=$PATH:$MACTEX_DIR:$PGAPP_DIR
 
 # Turn the prompt symbol red if the user is root
 if [ $( id -u ) -eq 0 ];
