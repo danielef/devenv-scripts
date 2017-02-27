@@ -7,6 +7,7 @@
 alias ls='ls -G'
 alias github='/Applications/GitHub\ Desktop.app/Contents/MacOS/GitHub\ Desktop'
 alias finder='open -a Finder ./'
+alias emacs='/usr/local/opt/emacs/Emacs.app/Contents/MacOS/Emacs --no-splash --fullscreen'
 
 # Application directories
 # MacTex
@@ -18,6 +19,10 @@ export PGAPP_DIR='/Applications/Postgres.app/Contents/Versions/latest/bin/'
 # Prompt
 export CLICOLOR=1
 export TERM='xterm-color'
+
+# Source hightlight (pip install Pygments) 
+export LESSOPEN="| pygmentize -g %s"
+export LESS=' -R '
 
 # Path
 export PATH=$PATH:$MACTEX_DIR:$PGAPP_DIR
