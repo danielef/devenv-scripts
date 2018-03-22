@@ -9,6 +9,11 @@ alias github='/Applications/GitHub\ Desktop.app/Contents/MacOS/GitHub\ Desktop'
 alias finder='open -a Finder ./'
 alias emacs='/usr/local/opt/emacs/Emacs.app/Contents/MacOS/Emacs --no-splash --fullscreen'
 
+alias j10="export JAVA_HOME=`/usr/libexec/java_home -v 10`; java -version"
+alias j9="export JAVA_HOME=`/usr/libexec/java_home -v 9`; java -version"
+alias j8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8`; java -version"
+
+
 # Application directories
 # MacTex
 export MACTEX_DIR='/usr/local/texlive/2015/bin/x86_64-darwin/'
