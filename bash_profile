@@ -10,7 +10,6 @@ alias finder='open -a Finder ./'
 alias emacs='/usr/local/opt/emacs/Emacs.app/Contents/MacOS/Emacs --no-splash --fullscreen'
 
 alias j10="export JAVA_HOME=`/usr/libexec/java_home -v 10`; java -version"
-alias j9="export JAVA_HOME=`/usr/libexec/java_home -v 9`; java -version"
 alias j8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8`; java -version"
 
 
