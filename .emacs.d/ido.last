@@ -2,6 +2,13 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/danielef/.emacs.d/elpa/" . "atom-one-dark-theme-20180305.1454/")
+ ("/Users/danielef/.emacs.d/" . "elpa/")
+ ("/Users/danielef/Developer/cognicious/axion/src/" . "cognicious/")
+ ("/Users/danielef/Developer/cognicious/axion/" . "src/")
+ ("/Users/danielef/Developer/cognicious/" . "axion/")
+ ("/Users/danielef/Developer/" . "cognicious/")
+ ("/Users/danielef/" . ".emacs.d/")
  ("/" . "Users/")
  ("/Users/dan/Developer/lab/jdbc-client-portable/src/" . "jdbc_client_portable/")
  ("/Users/dan/Developer/lab/jdbc-client-portable/" . "bin/")
@@ -334,6 +341,10 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/danielef/.emacs.d/elpa/atom-one-dark-theme-20180305.1454/"
+ "/Users/danielef/.emacs.d/customizations/"
+ "/Users/danielef/Developer/cognicious/axion/src/cognicious/"
+ "/Users/danielef/Developer/cognicious/axion/"
  "/Users/dan/Developer/iw/local-repo/robot/iw-robot/src/clj/mx/interware/robot/util/"
  "/Users/dan/Developer/iw/local-repo/buzone/cpagos-security/src/main/resources/db/"
  "/Users/dan/Developer/iw/local-repo/robot/iw-robot/bin/"
@@ -380,28 +391,48 @@
  "/Users/dan/Downloads/liferay-7-solid-portlet-example/configs/prod/"
  "/Users/dan/Downloads/liferay-7-solid-portlet-example/configs/dev/"
  "/Users/dan/Developer/cognicious/lienzo/src/cljs/lienzo/util/"
- "/Users/dan/Developer/danielef/finadvisor/resources/public/"
- "/Users/dan/Downloads/iw-robot/config/"
- "/Users/dan/Developer/danielef/finadvisor/test/cljs/finadvisor/"
- "/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/iwcfdCustomMicroserviceEmisionOne/src/mx/interware/strauz/custom/service/util/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "atom-one-dark-theme.el"
+ "ui.el"
+ "axion.clj"
+ "project.clj"
  "telegram.clj"
  "create_schema_complemento_pagos.sql"
  "inserts_data_complemento_pagos.sql"
  "inserts_data_complemento_pagos_fase1-late.sql"
  "iwrobot"
  "run.sh"
- "core.clj"
- "banorte-01.txt"
- "banamex-01.txt"
- "santander-01.txt"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/danielef/.emacs.d/elpa/atom-one-dark-theme-20180305.1454/" (23451 8410 67281 341000) "atom-one-dark-theme-pkg.el" "atom-one-dark-theme.el" "atom-one-dark-theme-autoloads.el" "../" "./")
+
+ ("/Users/danielef/.emacs.d/elpa/" (23451 8581 282090 554000) "atom-dark-theme-20170710.1612/" "ido-ubiquitous-20160623.815/" "paredit-20171126.1805/" "gnupg/" "cider-20180413.51/" "atom-one-dark-theme-20180305.1454/" "solarized-theme-20180316.859/" "seq-2.20.signed" "async-20180408.844/" "dash-functional-20180107.818/" "smex-20151212.1409/" "emojify-20180320.1933/" "column-marker-20121128.43/" "color-theme-sanityinc-tomorrow-20180302.1412/" "spinner-1.7.3.signed" "clojure-mode-extra-font-locking-20180114.911/" "pkg-info-20150517.443/" "git-commit-20180411.1649/" "ghub-20180414.1654/" "s-20180406.108/" "spinner-1.7.3/" "with-editor-20180414.757/" "queue-0.2/" "ido-completing-read+-20180222.1504/" "spacemacs-theme-20180319.736/" "dash-20180413.30/" "magit-popup-20180329.1302/" "ht-20180129.1434/" "company-plsense-readme.txt" "hide-lines-20151127.1040/" "tagedit-20161121.55/" "clojure-mode-20180329.2109/" "archives/" "memoize-20170720.1802/" "moe-theme-20180314.2108/" "jenkins-readme.txt" "projectile-20180324.2226/" "let-alist-1.0.5.signed" "epl-20180205.1249/" "whitespace-cleanup-mode-20170505.1923/" "less-css-mode-20160930.2153/" "exec-path-from-shell-20180323.1904/" "let-alist-1.0.5/" "queue-0.2.signed" "rainbow-delimiters-20170929.432/" "seq-2.20/" "monokai-theme-20180402.221/" "magit-20180416.852/" "../" "./")
+
+ ("/Users/danielef/.emacs.d/themes/" (23451 9179 9462 412000) "zenburn-theme.el" "tomorrow-night-eighties-theme.el" "color-theme-tomorrow.el" "dark-emacs-theme.el" "tomorrow-theme.el" "tomorrow-night-blue-theme.el" "tomorrow-night-bright-theme.el" "tomorrow-night-theme.el" "../" "./")
+
+ ("/Users/danielef/.emacs.d/" (23451 11488 402109 854000) ".smex-items" "cider-history" "backups/" "themes/" "emojis/" "elpa/" ".recentf" "init.el" "elpa.bk/" "auto-save-list/" "projectile-bookmarks.eld" "customizations/" "ido.last" "../" "./")
+
+ ("/Users/danielef/Developer/danielef/devenv-scripts/.emacs.d/customizations/" (23451 10866 424448 869000) "elisp-editing.el" "setup-js.el" "navigation.el" "editing.el" "setup-clojure.el" "misc.el" "shell-integration.el" "ui.el" "../" "./")
+
+ ("/Users/danielef/.emacs.d/customizations/" (23451 10866 424448 869000) "elisp-editing.el" "setup-js.el" "navigation.el" "editing.el" "setup-clojure.el" "misc.el" "shell-integration.el" "ui.el" "../" "./")
+
+ ("/Users/danielef/Developer/cognicious/axion/src/cognicious/" (23451 11041 351665 777000) "system.clj" "screenshot.clj" "axion.clj" "../" "./")
+
+ ("/Users/danielef/Developer/cognicious/axion/src/" (23451 11041 350850 970000) "cognicious/" "../" "./")
+
+ ("/Users/danielef/Developer/cognicious/axion/" (23451 11041 351894 576000) "src/" ".git/" "doc/" ".gitignore" "README.md" "resources/" "CHANGELOG.md" "bin/" "test/" "LICENSE" "project.clj" "../" "./")
+
+ ("/Users/danielef/Developer/cognicious/" (23451 11039 696865 20000) "axion/" "../" "./")
+
+ ("/Users/danielef/Developer/" (23451 11010 132519 995000) "cognicious/" "lab/" "danielef/" "../" "./")
+
+ ("/Users/danielef/" (23451 10963 629983 353000) ".viminfo" ".bash_history" ".gitconfig" "Downloads/" ".bash_profile" "Documents/" ".Trash/" "Movies/" ".ssh/" "Public/" ".emacs.d/" ".oracle_jre_usage/" "Library/" "Desktop/" "Pictures/" ".bash_rc" ".CFUserTextEncoding" ".DS_Store" "Developer/" "Music/" "../" "./")
+
  ("/Users/dan/Developer/iw/local-repo/buzone/cpagos-security/src/main/resources/db/" (23442 50738 453940 78000) "rollback_data_complemento_pagos.sql" "rollback_data_complemento_pagos_fase1-late.sql" "dictionary.sql" "er.pdf" "er.png" "create_schema_complemento_pagos.sql" "inserts_data_complemento_pagos.sql" "inserts_data_complemento_pagos_fase1-late.sql" "dictionary.xls" "rollback_schema_complemento_pagos.sql" "../" "./")
 
  ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/bin/" (23403 23124 6346 88000) "strauz-admin.sh" "clean-old-childs.awk" "clean-old-childs.sh" "upload-edn.sh" "memavail.sh" "upload.sh" "run-headless-jmx.sh" "install-mq-mvn.sh" "run.sh" "make-service.sh" "chromes.sh" "info.sh" "run-headless.sh" "run.bat" "make-and-send.sh" "make-distro.sh" "install-iwrobot.sh" "publish-distro.sh" "maven-config.sh" "make.sh" "iwrobot" "../" "./")
@@ -577,30 +608,6 @@
  ("/Users/dan/Developer/iw/local-repo/caudal/caudal.site/themes/" (23151 11975 3037 917000) "navy/" "../" "./")
 
  ("/Users/dan/Developer/iw/local-repo/caudal/caudal.site/themes/navy/" (23151 11975 10557 467000) "languages/" "source/" "layout/" "../" "./")
-
- ("/Users/dan/Developer/iw/local-repo/caudal/caudal.site/themes/navy/languages/" (23151 11975 3585 951000) "en.yml" "es.yml" "../" "./")
-
- ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/src/clj/mx/interware/robot/core/" (23317 21785 65718 687000) "essentials.clj" "util.clj" "operations.clj" "state.clj" "../" "./")
-
- ("/Users/dan/Developer/cognicious/lienzo/test/" (23289 50068 192826 145000) "cljs/" "../" "./")
-
- ("/Users/dan/Developer/cognicious/lienzo/test/cljs/" (23289 50247 579098 827000) "lienzo/" "../" "./")
-
- ("/Users/dan/Downloads/liferay-7-solid-portlet-example/gradle/wrapper/" (23300 10973 176324 545000) "gradle-wrapper.properties" "gradle-wrapper.jar" "../" "./")
-
- ("/Users/dan/Downloads/liferay-7-solid-portlet-example/gradle/" (23300 10973 174607 230000) "wrapper/" "../" "./")
-
- ("/Users/dan/Downloads/liferay-7-solid-portlet-example/configs/dev/" (23300 10973 167699 749000) "portal-ext.properties" "../" "./")
-
- ("/Users/dan/Downloads/liferay-7-solid-portlet-example/configs/prod/" (23300 10973 171916 489000) "osgi/" "portal-ext.properties" "../" "./")
-
- ("/Users/dan/Downloads/liferay-7-solid-portlet-example/configs/" (23300 10973 172560 458000) "dev/" "local/" "uat/" "prod/" "../" "./")
-
- ("/Users/dan/Downloads/liferay-7-solid-portlet-example/" (23300 11759 956530 586000) "settings.gradle" "modules/" "gradlew.bat" ".git/" "gradle.properties" "blade.jar" "init-workspace.sh" ".gradle/" "build.gradle" "configs/" ".gitignore" "gradlew" "gradle/" "README.md" "../" "./")
-
- ("/Users/dan/Downloads/liferay-7-solid-portlet-example/modules/" (23300 10973 180754 820000) "VaadinPortlet/" "../" "./")
-
- ("/Users/dan/Downloads/liferay-7-solid-portlet-example/modules/VaadinPortlet/" (23300 11401 476436 862000) "src/" "build/" "build.gradle" "bnd.bnd" ".gitignore" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

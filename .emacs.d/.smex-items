@@ -1,20 +1,20 @@
 
 ;; ----- smex-history -----
 (
+ load-theme
+ package-refresh-contents
+ load-file
  package-show-package-list
  package-install
  paredit-mode
  package-autoremove
- list-packages
- load-theme
- color-theme-sanityinc-tomorrow-bright
 )
 
 ;; ----- smex-data -----
 (
  (cider-jack-in . 5)
  (package-install . 24)
- (load-theme . 7)
+ (load-theme . 13)
  (column-marker-1 . 1)
  (origami-mode . 1)
  (origami-close-node . 2)
@@ -37,4 +37,6 @@
  (package-autoremove . 1)
  (paredit-mode . 10)
  (package-show-package-list . 1)
+ (load-file . 1)
+ (package-refresh-contents . 1)
 )
