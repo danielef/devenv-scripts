@@ -1,0 +1,40 @@
+
+;; ----- smex-history -----
+(
+ package-show-package-list
+ package-install
+ paredit-mode
+ package-autoremove
+ list-packages
+ load-theme
+ color-theme-sanityinc-tomorrow-bright
+)
+
+;; ----- smex-data -----
+(
+ (cider-jack-in . 5)
+ (package-install . 24)
+ (load-theme . 7)
+ (column-marker-1 . 1)
+ (origami-mode . 1)
+ (origami-close-node . 2)
+ (origami-open-node . 1)
+ (origami-toggle-node . 6)
+ (origami-next-fold . 2)
+ (checkdoc . 1)
+ (comment-region . 4)
+ (uncomment-region . 1)
+ (shell . 1)
+ (customize-themes . 5)
+ (battery . 1)
+ (package-menu-mark-upgrades . 1)
+ (list-packages . 4)
+ (color-theme-sanityinc-tomorrow-night . 7)
+ (color-theme-sanityinc-tomorrow-day . 1)
+ (color-theme-sanityinc-tomorrow-bright . 7)
+ (color-theme-sanityinc-tomorrow-eighties . 2)
+ (color-theme-sanityinc-tomorrow-blue . 2)
+ (package-autoremove . 1)
+ (paredit-mode . 10)
+ (package-show-package-list . 1)
+)
