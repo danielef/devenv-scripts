@@ -1,0 +1,607 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/" . "Users/")
+ ("/Users/dan/Developer/lab/jdbc-client-portable/src/" . "jdbc_client_portable/")
+ ("/Users/dan/Developer/lab/jdbc-client-portable/" . "bin/")
+ ("/Users/dan/Developer/lab/mssql-client/" . "src/")
+ ("/Users/dan/Developer/lab/mssql-client/src/" . "mssql_client/")
+ ("/Users/dan/Developer/iw/local-repo/buzone/cpagos-security/src/main/java/mx/com/interware/cpagos/security/" . "bo/")
+ ("/Users/dan/Developer/danielef/scala-clj/src/" . "scala_clj/")
+ ("/Users/dan/Developer/danielef/scala-clj/" . "src/")
+ ("/Users/dan/Developer/cognicious/lienzo/resources/" . "public/")
+ ("/Users/dan/Developer/cognicious/lienzo/src/styles/lienzo/" . "theme/")
+ ("/Users/dan/Developer/cognicious/lienzo/src/styles/" . "lienzo/")
+ ("/Users/dan/Developer/cognicious/axion/src/" . "cognicious/")
+ ("/Users/dan/Developer/cognicious/axion/" . "resources/")
+ ("/Users/dan/.m2/repository/iw/morse/" . "0.3.0/")
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/iw-robot-1.0.63-SNAPSHOT/" . "bin/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal.site/source/es/" . "docs/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal.site/source/" . "es/")
+ ("/Users/dan/Developer/cognicious/lienzo/test/cljs/" . "lienzo/")
+ ("/Users/dan/Developer/cognicious/lienzo/test/" . "cljs/")
+ ("/Users/dan/Downloads/liferay-7-solid-portlet-example/modules/VaadinPortlet/src/main/java/org/vaadin/liferay/" . "example/")
+ ("/Users/dan/Downloads/liferay-7-solid-portlet-example/modules/VaadinPortlet/src/main/java/org/vaadin/" . "liferay/")
+ ("/Users/dan/Downloads/liferay-7-solid-portlet-example/modules/VaadinPortlet/src/main/java/org/" . "vaadin/")
+ ("/Users/dan/Downloads/liferay-7-solid-portlet-example/modules/VaadinPortlet/src/main/java/" . "org/")
+ ("/Users/dan/Downloads/liferay-7-solid-portlet-example/modules/VaadinPortlet/src/main/" . "java/")
+ ("/Users/dan/Downloads/liferay-7-solid-portlet-example/modules/VaadinPortlet/src/" . "main/")
+ ("/Users/dan/Downloads/liferay-7-solid-portlet-example/modules/VaadinPortlet/" . "src/")
+ ("/Users/dan/Downloads/liferay-7-solid-portlet-example/modules/" . "VaadinPortlet/")
+ ("/Users/dan/Downloads/liferay-7-solid-portlet-example/gradle/" . "wrapper/")
+ ("/Users/dan/Downloads/liferay-7-solid-portlet-example/configs/" . "prod/")
+ ("/Users/dan/Downloads/liferay-7-solid-portlet-example/" . "modules/")
+ ("/Users/dan/Developer/danielef/finadvisor/resources/public/" . "cljs/")
+ ("/Users/dan/Developer/danielef/finadvisor/resources/" . "public/")
+ ("/Users/dan/Developer/danielef/finadvisor/src/clj/" . "finadvisor/")
+ ("/Users/dan/Developer/danielef/finadvisor/src/cljs/" . "finadvisor/")
+ ("/Users/dan/Developer/danielef/finadvisor/src/" . "clj/")
+ ("/Users/dan/Developer/danielef/finadvisor/test/cljs/" . "finadvisor/")
+ ("/Users/dan/Developer/danielef/finadvisor/test/" . "cljs/")
+ ("/Users/dan/Developer/danielef/finadvisor/" . "resources/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal-oss/" . "bin/")
+ ("/Users/dan/Developer/cognicious/pluggable-demo/core.app/src/" . "core/")
+ ("/Users/dan/Developer/cognicious/pluggable-demo/core.app/" . "src/")
+ ("/Users/dan/Developer/cognicious/pluggable-demo/" . "core.app/")
+ ("/Users/dan/Developer/cognicious/core.app/src/" . "core/")
+ ("/Users/dan/Developer/cognicious/core.app/" . "src/")
+ ("/Users/dan/Developer/cognicious/core.module/src/" . "core/")
+ ("/Users/dan/Developer/cognicious/core.module/" . "src/")
+ ("/Users/dan/Developer/cognicious/" . "pluggable-demo/")
+ ("/Users/dan/Downloads/iw-robot/src/clj/mx/interware/robot/" . "main/")
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot.site/themes/navy/" . "layout/")
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot.site/themes/" . "navy/")
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot.site/" . "themes/")
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot.site/themes/navy/layout/" . "partial/")
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot.site/source/" . "docs/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal-wiki.bitbucket/themes/navy/source/css/" . "_partial/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal-wiki.bitbucket/themes/navy/source/" . "css/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal-wiki.bitbucket/themes/navy/" . "source/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal-wiki.bitbucket/themes/" . "navy/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal-wiki.bitbucket/" . "themes/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal.site/themes/navy/source/css/" . "_partial/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal.site/themes/navy/source/" . "css/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal.site/themes/navy/" . "source/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal.site/themes/" . "navy/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal.site/" . "source/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal-clean/src/clj/mx/interware/caudal/" . "streams/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal-clean/src/clj/mx/interware/" . "caudal/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal-clean/src/clj/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal-clean/src/clj/" . "mx/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal-clean/src/" . "clj/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal-clean/" . "src/")
+ ("/Users/dan/Developer/react-101/public/" . "css/")
+ ("/Users/dan/Developer/react-101/" . "public/")
+ ("/Applications/MAMP/conf/apache/" . "extra/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/caudal-0.7.14/" . "bin/")
+ ("/Users/dan/Developer/cognicious/lienzo/src/cljs/lienzo/" . "components/")
+ ("/Users/dan/Developer/cognicious/lienzo/src/cljs/" . "lienzo/")
+ ("/Users/dan/Developer/cognicious/lienzo/src/" . "styles/")
+ ("/Users/dan/Developer/cognicious/lienzo/demo/src/cljs/" . "lienzo/")
+ ("/Users/dan/Developer/cognicious/lienzo/demo/src/" . "cljs/")
+ ("/Users/dan/Developer/cognicious/lienzo/demo/" . "src/")
+ ("/Users/dan/Developer/cognicious/lienzo/" . "test/")
+ ("/Users/dan/Developer/cognicious/site/themes/ochuunn/source/css/" . "partial/")
+ ("/Users/dan/Developer/cognicious/site/themes/ochuunn/layout/" . "views/")
+ ("/Users/dan/Developer/cognicious/site/themes/ochuunn/source/" . "css/")
+ ("/Users/dan/Developer/cognicious/site/themes/ochuunn/" . "source/")
+ ("/Users/dan/Developer/cognicious/site/themes/" . "ochuunn/")
+ ("/Users/dan/Developer/cognicious/site/" . ".ci/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-rfc/src/mx/interware/strauz/rfc/" . "core/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-rfc/src/mx/interware/strauz/" . "rfc/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-rfc/src/mx/interware/" . "strauz/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-rfc/src/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-rfc/src/" . "mx/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-rfc/" . "src/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/src/cljs/mx/interware/caudal/" . "dashboard/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/src/cljs/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/src/cljs/" . "mx/")
+ ("/Users/dan/Developer/lab/ntlm-proxy/" . "ntlm-proxy/")
+ ("/Users/dan/.m2/repository/commons-httpclient/commons-httpclient/" . "3.1/")
+ ("/Users/dan/.m2/repository/commons-httpclient/" . "commons-httpclient/")
+ ("/Users/dan/.m2/repository/" . "commons-httpclient/")
+ ("/Users/dan/.m2/" . "repository/")
+ ("/Users/dan/Developer/lab/ntlm-proxy/ntlm-proxy/src/main/java/mx/interware/proxies/" . "ntlm/")
+ ("/Users/dan/Developer/lab/ntlm-proxy/ntlm-proxy/src/main/java/mx/interware/" . "proxies/")
+ ("/Users/dan/Developer/lab/ntlm-proxy/ntlm-proxy/src/main/java/mx/" . "interware/")
+ ("/Users/dan/Developer/lab/ntlm-proxy/ntlm-proxy/src/main/java/" . "mx/")
+ ("/Users/dan/Developer/lab/ntlm-proxy/ntlm-proxy/src/main/" . "java/")
+ ("/Users/dan/Developer/lab/ntlm-proxy/ntlm-proxy/src/" . "main/")
+ ("/Users/dan/Developer/lab/ntlm-proxy/ntlm-proxy/" . "src/")
+ ("/Volumes/BULU/" . "iw-robot-1.0.51/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/iwcfdCustomMicroserviceEmision/src/mx/interware/strauz/custom/service/" . "core/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/iwcfdCustomMicroserviceEmision/src/mx/interware/strauz/custom/" . "service/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/iwcfdCustomMicroserviceEmision/src/mx/interware/strauz/" . "custom/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/iwcfdCustomMicroserviceEmision/src/mx/interware/" . "strauz/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/iwcfdCustomMicroserviceEmision/src/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/iwcfdCustomMicroserviceEmision/src/" . "mx/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/iwcfdCustomMicroserviceEmision/" . "src/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/iwcfdCustomMicroserviceEmisionOne/src/mx/interware/strauz/custom/service/" . "util/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/iwcfdCustomMicroserviceEmisionOne/src/mx/interware/strauz/custom/" . "service/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/iwcfdCustomMicroserviceEmisionOne/src/mx/interware/strauz/" . "custom/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/iwcfdCustomMicroserviceEmisionOne/src/mx/interware/" . "strauz/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/iwcfdCustomMicroserviceEmisionOne/src/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/iwcfdCustomMicroserviceEmisionOne/src/" . "mx/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/iwcfdCustomMicroserviceEmisionOne/" . "environment/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/" . "iwcfdCustomMicroserviceEmisionResponse/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/iwcfdCustomMicroserviceEmisionResponse/src/mx/interware/strauz/custom/" . "service/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/iwcfdCustomMicroserviceEmisionResponse/src/mx/interware/strauz/" . "custom/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/iwcfdCustomMicroserviceEmisionResponse/src/mx/interware/" . "strauz/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/iwcfdCustomMicroserviceEmisionResponse/src/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/iwcfdCustomMicroserviceEmisionResponse/src/" . "mx/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/iwcfdCustomMicroserviceEmisionResponse/" . "src/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/iwcfdCustomMicroserviceEmisionResponse/src/mx/interware/strauz/custom/service/" . "core/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/src/clj/mx/interware/caudal/" . "io/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/src/clj/mx/interware/" . "caudal/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/src/clj/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/src/clj/" . "mx/")
+ ("/Users/dan/Developer/iw/local-repo/robot/" . "iw-robot/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/resources/public/" . "css/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/resources/" . "public/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/src/cljs/mx/interware/" . "caudal/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-xsd-validator/src/mx/interware/strauz/xsd/" . "main/")
+ ("/Users/dan/Downloads/selenium/src/main/java/com/selenium/" . "test/")
+ ("/Users/dan/Downloads/selenium/src/main/java/com/" . "selenium/")
+ ("/Users/dan/Downloads/selenium/src/main/java/" . "com/")
+ ("/Users/dan/Downloads/selenium/src/main/" . "java/")
+ ("/Users/dan/Downloads/selenium/src/" . "main/")
+ ("/Users/dan/Downloads/selenium/" . "src/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/src/cljs/mx/interware/caudal/dashboard/" . "views/")
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/src/cljs/mx/interware/" . "iw_robot/")
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/src/cljs/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/src/cljs/" . "mx/")
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/resources/public/" . "css/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal-dashboard/resources/public/js/" . "externs/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal-dashboard/resources/public/" . "js/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal-dashboard/resources/" . "public/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal-dashboard/" . "resources/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal-dashboard/src/" . "cljs/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal-dashboard/src/cljs/mx/interware/caudal/dashboard/" . "views/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal-dashboard/src/cljs/mx/interware/caudal/" . "dashboard/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-monitor/" . "config/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-monitor/src/mx/interware/strauz/" . "monitor/")
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/src/cljs/mx/interware/iw_robot/" . "ui/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-orchestrator/" . "config/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-util/src/mx/interware/strauz/util/" . "xml/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-util/src/mx/interware/strauz/" . "util/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-util/src/mx/interware/" . "strauz/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-util/src/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-util/src/" . "mx/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-util/" . "src/")
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/" . "bin/")
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/src/clj/mx/interware/robot/" . "util/")
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/src/clj/mx/interware/" . "robot/")
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/src/clj/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/src/clj/" . "mx/")
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/src/" . "clj/")
+ ("/Users/dan/Developer/lab/cinemex/marquesina_v2/platino/" . "images/")
+ ("/Users/dan/Developer/lab/cinemex/taquilla_v3/platino1/" . "css/")
+ ("/Users/dan/Developer/lab/cinemex/taquilla_v3/tradicional1/" . "css/")
+ ("/Users/dan/Developer/lab/cinemex/taquilla_v3/" . "tradicional1/")
+ ("/Users/dan/Developer/lab/cinemex-rest/src/com/stackfire/" . "cinemex/")
+ ("/Users/dan/Developer/lab/cinemex-rest/src/com/" . "stackfire/")
+ ("/Users/dan/Developer/lab/cinemex-rest/src/" . "com/")
+ ("/Users/dan/Developer/lab/cinemex-rest/" . "config/")
+ ("/Users/dan/Developer/lab/cinemex/marquesina_v3/tradicional1/" . "css/")
+ ("/Users/dan/Developer/lab/cinemex/marquesina_v3/" . "tradicional1/")
+ ("/Users/dan/Developer/lab/cinemex/marquesina_v3/platino1/" . "css/")
+ ("/Users/dan/Developer/lab/oracle-monitor/src/io/caudal/oracle/" . "monitor/")
+ ("/Users/dan/Developer/lab/oracle-monitor/src/io/caudal/" . "oracle/")
+ ("/Users/dan/Developer/lab/oracle-monitor/src/io/" . "caudal/")
+ ("/Users/dan/Developer/lab/oracle-monitor/src/" . "io/")
+ ("/Users/dan/Developer/lab/oracle-monitor/" . "src/")
+ ("/Users/dan/Developer/lab/oracle-monitor/src/io/caudal/oracle/monitor/" . "main/")
+ ("/Users/dan/Developer/lab/cinemex/poster_v2/tradicional/" . "scripts/")
+ ("/Users/dan/Developer/lab/cinemex/poster_v2/" . "platino/")
+ ("/Users/dan/Developer/lab/caudal-dashboard/src/cljs/" . "caudal_dashboard/")
+ ("/Users/dan/Developer/lab/caudal-dashboard/resources/" . "public/")
+ ("/Users/dan/Developer/lab/caudal-dashboard/" . "resources/")
+ ("/Users/dan/Downloads/catCCE11-20170515/" . "c_CodigoPostal/")
+ ("/Users/dan/Developer/lab/lab-hsm/" . "config/")
+ ("/Users/dan/Developer/lab/cinemex/poster/tradicional/" . "css/")
+ ("/Users/dan/Developer/lab/cinemex/marquesina_v2/" . "platino/")
+ ("/Users/dan/Developer/lab/cinemex/poster/platino/" . "css/")
+ ("/Users/dan/Developer/lab/cinemex/taquilla_v2/" . "tradicional/")
+ ("/Users/dan/Developer/lab/cinemex/poster/" . "tradicional/")
+ ("/Users/dan/Developer/lab/cinemex/" . "taquilla_v3/")
+ ("/Users/dan/Developer/lab/cinemex-rest/src/com/stackfire/cinemex/" . "store/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-notifier/" . "docker/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-sat-catalog-parser/src/mx/interware/" . "strauz/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-sat-catalog-parser/src/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-sat-catalog-parser/src/" . "mx/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-sat-catalog-parser/src/mx/interware/strauz/" . "sat_catalogo/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-sat-catalog-parser/resources/pagos10/" . "edn/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-sat-catalog-parser/resources/cce11/" . "edn/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-sat-catalog-parser/resources/nomina12/" . "edn/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-sat-catalog-parser/resources/cfdi33/" . "edn/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-sat-catalog-parser/resources/" . "cce11/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-sat-catalog-parser/" . "src/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-sat-catalog-parser/src/mx/interware/strauz/sat_catalogo/" . "rest/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/src/mx/interware/caudal/" . "io/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/src/mx/interware/" . "caudal/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/src/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/src/" . "cljs/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/" . "bin/")
+ ("/Users/dan/Developer/iw/local-repo/caudal/" . "caudal/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-prioritizer/test/mx/interware/strauz/prioritizer/" . "core/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-prioritizer/test/mx/interware/strauz/" . "prioritizer/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-prioritizer/test/mx/interware/" . "strauz/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-prioritizer/test/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-prioritizer/test/" . "mx/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-prioritizer/src/mx/interware/strauz/prioritizer/" . "main/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-prioritizer/src/mx/interware/strauz/" . "prioritizer/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-prioritizer/src/mx/interware/" . "strauz/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-prioritizer/src/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-prioritizer/src/" . "mx/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-prioritizer/" . "docker/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-db-cleaner/" . "bin/")
+ ("/Users/dan/Developer/lab/zip-test/src/" . "zip_test/")
+ ("/Users/dan/Developer/lab/zip-test/" . "src/")
+ ("/Users/dan/Developer/lab/" . "cinemex-rest/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-cleaner/src/mx/interware/strauz/cleaner/" . "core/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-cleaner/src/mx/interware/strauz/" . "cleaner/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-cleaner/src/mx/interware/" . "strauz/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-cleaner/src/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-cleaner/src/" . "mx/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/strauz-cleaner/" . "src/")
+ ("/Users/dan/Developer/iw/local-repo/strauz/" . "strauz-prioritizer/")
+ ("/Users/dan/Developer/iw/local-repo/caudal-wiki/themes/navy/source/css/" . "_partial/")
+ ("/Users/dan/Developer/lab/stanley-monitor-pendientes/src/" . "stanley_monitor/")
+ ("/Users/dan/Developer/lab/stanley-monitor-pendientes/" . "src/")
+ ("/Users/dan/Developer/iw/local-repo/arp/test/mx/interware/caudal/" . "core/")
+ ("/Users/dan/Developer/iw/local-repo/arp/src/mx/interware/caudal/" . "streams/")
+ ("/Users/dan/Developer/iw/local-repo/arp-jmx/test/mx/interware/arp/" . "agent/")
+ ("/Users/dan/Developer/iw/local-repo/arp-jmx/test/mx/interware/" . "arp/")
+ ("/Users/dan/Developer/iw/local-repo/arp-jmx/test/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/local-repo/arp-jmx/test/" . "mx/")
+ ("/Users/dan/Developer/iw/local-repo/arp-jmx/src/mx/interware/arp/" . "agent/")
+ ("/Users/dan/Developer/iw/local-repo/arp-jmx/src/mx/interware/" . "arp/")
+ ("/Users/dan/Developer/iw/local-repo/arp-jmx/src/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/local-repo/arp-jmx/src/" . "mx/")
+ ("/Users/dan/Developer/iw/local-repo/arp-jmx/" . "test/")
+ ("/Users/dan/Developer/lab/wildfly-9.0.1.Final/example-jmx/src/" . "example_jmx/")
+ ("/Users/dan/Developer/lab/wildfly-9.0.1.Final/example-jmx/" . "src/")
+ ("/Users/dan/Developer/iw/invex/riemann-iw/etc/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/invex/riemann-iw/etc/" . "mx/")
+ ("/Users/dan/Developer/iw/invex/riemann-iw/" . "etc/")
+ ("/Users/dan/Developer/iw/invex/" . "riemann-iw/")
+ ("/Users/dan/Developer/iw/local-repo/arp-bitbucket/test/mx/interware/arp/" . "io/")
+ ("/Users/dan/Developer/iw/local-repo/arp-bitbucket/test/mx/interware/" . "arp/")
+ ("/Users/dan/Developer/iw/local-repo/arp-bitbucket/test/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/local-repo/arp-bitbucket/test/" . "mx/")
+ ("/Users/dan/Developer/iw/local-repo/arp-bitbucket/src/mx/interware/arp/" . "core/")
+ ("/Users/dan/Developer/iw/local-repo/arp-bitbucket/src/mx/interware/" . "arp/")
+ ("/Users/dan/Developer/iw/local-repo/arp-bitbucket/src/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/local-repo/arp-bitbucket/src/" . "mx/")
+ ("/Users/dan/Developer/iw/local-repo/arp-bitbucket/" . "test/")
+ ("/Users/dan/Developer/iw/local-repo/" . "robot/")
+ ("/Users/dan/Developer/iw/local-repo/arp/test/mx/interware/arp/" . "streams/")
+ ("/Users/dan/Developer/iw/local-repo/arp/test/mx/interware/" . "caudal/")
+ ("/Users/dan/Developer/iw/local-repo/arp/test/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/local-repo/arp/test/" . "mx/")
+ ("/Users/dan/Developer/iw/local-repo/arp/" . "test/")
+ ("/Users/dan/Developer/iw/local-repo/arp/src/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/local-repo/arp/src/" . "mx/")
+ ("/Users/dan/Developer/iw/local-repo/arp/src/mx/interware/arp/" . "test/")
+ ("/Users/dan/Developer/iw/local-repo/arp/src/mx/interware/" . "caudal/")
+ ("/Users/dan/Developer/iw/invex/riemann-iw/etc/mx/interware/arp/" . "streams/")
+ ("/Users/dan/Developer/iw/invex/riemann-iw/etc/mx/interware/" . "arp/")
+ ("/Users/dan/Downloads/workspace/" . "dockerComposeLREK/")
+ ("/Users/dan/Downloads/" . "walmart/")
+ ("/Users/dan/Developer/iw/local-repo/riemann-iw/etc/mx/interware/arp/" . "invex/")
+ ("/Users/dan/Developer/iw/local-repo/riemann-iw/" . "etc/")
+ ("/Users/dan/Developer/lab/simple/target/" . "archive-tmp/")
+ ("/Users/dan/Developer/lab/appender/log4j-riemann-appender/test/mx/interware/riemann/" . "log4j_riemann_appender/")
+ ("/Users/dan/Developer/lab/appender/log4j-riemann-appender/test/mx/interware/" . "riemann/")
+ ("/Users/dan/Developer/lab/appender/log4j-riemann-appender/test/mx/" . "interware/")
+ ("/Users/dan/Developer/lab/appender/log4j-riemann-appender/test/" . "mx/")
+ ("/Users/dan/Developer/lab/appender/log4j-riemann-appender/" . "test/")
+ ("/Users/dan/Developer/lab/simple/src/main/java/mx/" . "interware/")
+ ("/Users/dan/Developer/lab/simple/src/main/java/" . "mx/")
+ ("/Users/dan/Developer/lab/simple/src/main/" . "java/")
+ ("/Users/dan/Developer/lab/simple/src/" . "main/")
+ ("/Users/dan/Developer/lab/simple/" . "src/")
+ ("/Users/dan/Developer/lab/monitor/" . "js/")
+ ("/Users/dan/Developer/iw/local-repo/riemann-iw/etc/mx/interware/riemann/" . "invex/")
+ ("/Users/dan/Developer/iw/local-repo/riemann-iw/etc/" . "mx/")
+ ("/Users/dan/Developer/iw/local-repo/riemann-iw/etc/mx/interware/" . "arp/")
+ ("/Users/dan/Developer/iw/local-repo/riemann-iw/etc/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/iwa/java.jmx/src/main/clojure/mx/interware/" . "java/")
+ ("/Users/dan/Developer/iw/iwa/java.jmx/src/main/clojure/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/iwa/java.jmx/src/main/clojure/" . "mx/")
+ ("/Users/dan/Developer/iw/iwa/java.jmx/src/main/" . "clojure/")
+ ("/Users/dan/Developer/iw/iwa/java.jmx/src/" . "main/")
+ ("/Users/dan/Developer/iw/iwa/riemann.client.jmx/src/main/clojure/mx/interware/riemann/client/" . "jmx/")
+ ("/Users/dan/Developer/iw/iwa/riemann.client.jmx/src/main/clojure/mx/interware/riemann/" . "client/")
+ ("/Users/dan/Developer/iw/iwa/riemann.client.jmx/src/main/clojure/mx/interware/" . "riemann/")
+ ("/Users/dan/Developer/iw/iwa/riemann.client.jmx/src/main/clojure/mx/" . "interware/")
+ ("/Users/dan/Developer/iw/iwa/riemann.client.jmx/src/main/clojure/" . "mx/")
+ ("/Users/dan/Developer/iw/iwa/riemann.client.jmx/src/main/" . "clojure/")
+ ("/Users/dan/Developer/iw/iwa/riemann.client.jmx/src/" . "main/")
+ ("/Users/dan/Developer/iw/iwa/riemann.client.jmx/" . "src/")
+ ("/Users/dan/.emacs.d/elpa/" . "color-theme-sanityinc-tomorrow-20171106.634/")
+ ("/Users/" . "dan/")
+ ("/Users/dan/Developer/iw/iwa/" . "java.jmx/")
+ ("/Users/dan/Developer/iw/iwa/module/" . "iwa-client/")
+ ("/Users/dan/Developer/iw/" . "local-repo/")
+ ("/Users/dan/Developer/" . "iw/")
+ ("/Users/dan/Downloads/clojure-noob/src/" . "clojure_noob/")
+ ("/Users/dan/Downloads/clojure-noob/" . "src/")
+ ("/Users/dan/.emacs.d/" . "customizations/")
+ ("/Users/dan/" . "Developer/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/dan/Developer/iw/local-repo/robot/iw-robot/src/clj/mx/interware/robot/util/"
+ "/Users/dan/Developer/iw/local-repo/buzone/cpagos-security/src/main/resources/db/"
+ "/Users/dan/Developer/iw/local-repo/robot/iw-robot/bin/"
+ "/Users/dan/Developer/iw/local-repo/caudal/caudal/bin/"
+ "/Users/dan/Developer/lab/jdbc-client-portable/src/jdbc_client_portable/"
+ "/Users/dan/Downloads/"
+ "/Users/dan/Developer/iw/local-repo/buzone/cpagos-concilia/"
+ "/Users/dan/Developer/iw/local-repo/caudal/caudal/"
+ "/Users/dan/Developer/lab/jdbc-client-portable/"
+ "/Users/dan/Developer/lab/cinemex-rest/config/"
+ "/Users/dan/Developer/lab/mssql-client/src/mssql_client/"
+ "/Users/dan/Developer/iw/local-repo/buzone/cpagos-security/src/main/java/mx/com/interware/cpagos/security/bo/"
+ "/Users/dan/Developer/iw/local-repo/robot/iw-robot/"
+ "/Users/dan/Developer/danielef/scala-clj/src/scala_clj/"
+ "/Users/dan/Developer/danielef/scala-clj/"
+ "/Users/dan/.lein/"
+ "/Users/dan/Developer/iw/local-repo/caudal/caudal/src/cljs/mx/interware/caudal/dashboard/"
+ "/Users/dan/Developer/iw/local-repo/caudal/caudal/src/cljs/mx/interware/caudal/dashboard/views/"
+ "/Users/dan/Developer/cognicious/lienzo/test/cljs/lienzo/"
+ "/Users/dan/Developer/cognicious/lienzo/src/styles/lienzo/theme/"
+ "/Users/dan/Developer/cognicious/lienzo/src/cljs/lienzo/components/"
+ "/Users/dan/Developer/cognicious/lienzo/src/sass/"
+ "/Users/dan/Developer/cognicious/lienzo/"
+ "/Users/dan/Developer/cognicious/lienzo/resources/public/"
+ "/Users/dan/Developer/iw/local-repo/robot/iw-robot/config/"
+ "/Users/dan/Developer/iw/local-repo/caudal/caudal/src/clj/mx/interware/caudal/io/"
+ "/Users/dan/Developer/iw/local-repo/caudal/caudal/config/"
+ "/Users/dan/Developer/iw/local-repo/caudal/caudal/src/clj/mx/interware/caudal/streams/"
+ "/Users/dan/Developer/cognicious/axion/"
+ "/Users/dan/Developer/cognicious/axion/resources/"
+ "/Users/dan/Developer/cognicious/axion/src/cognicious/"
+ "/Users/dan/.m2/repository/iw/morse/0.3.0/"
+ "/Users/dan/Developer/iw/local-repo/caudal/caudal/resources/public/css/"
+ "/Users/dan/Developer/iw/local-repo/robot/iw-robot/iw-robot-1.0.63-SNAPSHOT/bin/"
+ "/Users/dan/Developer/iw/local-repo/caudal/caudal.site/source/es/docs/"
+ "/Users/dan/Developer/iw/local-repo/caudal/caudal.site/source/docs/"
+ "/Users/dan/Developer/iw/local-repo/caudal/caudal.site/themes/navy/languages/"
+ "/Users/dan/Developer/iw/local-repo/caudal/caudal/src/clj/mx/interware/caudal/web/"
+ "/Users/dan/Developer/iw/local-repo/caudal/caudal/src/clj/mx/interware/caudal/core/"
+ "/Users/dan/Developer/iw/local-repo/robot/iw-robot/src/clj/mx/interware/robot/core/"
+ "/Users/dan/Developer/cognicious/lienzo/src/cljs/lienzo/utils/"
+ "/Users/dan/Downloads/liferay-7-solid-portlet-example/modules/VaadinPortlet/src/main/java/org/vaadin/liferay/example/"
+ "/Users/dan/Downloads/liferay-7-solid-portlet-example/modules/VaadinPortlet/"
+ "/Users/dan/Downloads/liferay-7-solid-portlet-example/configs/prod/"
+ "/Users/dan/Downloads/liferay-7-solid-portlet-example/configs/dev/"
+ "/Users/dan/Developer/cognicious/lienzo/src/cljs/lienzo/util/"
+ "/Users/dan/Developer/danielef/finadvisor/resources/public/"
+ "/Users/dan/Downloads/iw-robot/config/"
+ "/Users/dan/Developer/danielef/finadvisor/test/cljs/finadvisor/"
+ "/Users/dan/Developer/iw/local-repo/strauz/gnp-iwcfd-emision/iwcfdCustomMicroserviceEmisionOne/src/mx/interware/strauz/custom/service/util/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "telegram.clj"
+ "create_schema_complemento_pagos.sql"
+ "inserts_data_complemento_pagos.sql"
+ "inserts_data_complemento_pagos_fase1-late.sql"
+ "iwrobot"
+ "run.sh"
+ "core.clj"
+ "banorte-01.txt"
+ "banamex-01.txt"
+ "santander-01.txt"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/dan/Developer/iw/local-repo/buzone/cpagos-security/src/main/resources/db/" (23442 50738 453940 78000) "rollback_data_complemento_pagos.sql" "rollback_data_complemento_pagos_fase1-late.sql" "dictionary.sql" "er.pdf" "er.png" "create_schema_complemento_pagos.sql" "inserts_data_complemento_pagos.sql" "inserts_data_complemento_pagos_fase1-late.sql" "dictionary.xls" "rollback_schema_complemento_pagos.sql" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/bin/" (23403 23124 6346 88000) "strauz-admin.sh" "clean-old-childs.awk" "clean-old-childs.sh" "upload-edn.sh" "memavail.sh" "upload.sh" "run-headless-jmx.sh" "install-mq-mvn.sh" "run.sh" "make-service.sh" "chromes.sh" "info.sh" "run-headless.sh" "run.bat" "make-and-send.sh" "make-distro.sh" "install-iwrobot.sh" "publish-distro.sh" "maven-config.sh" "make.sh" "iwrobot" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/" (23412 19103 654225 82000) "src/" "iw-robot-1.0.60.bk/" "iw-robot-1.0.62/" "authenticator.clj" "NAME" ".git/" "iw-robot-1.0.63/" "leveldb.bk/" "dev/" "lib/" "Jenkinsfile" "leveldb.israel/" "app-prueba.edn" "run-it.sh" "VERSION" ".gitignore" "iw-robot-1.0.63-SNAPSHOT.zip" "jezapp.edn" ".lein-repl-history" "iw-robot-1.0.63-SNAPSHOT.tar.bz2" "leveldb.destevez.zip" "iw-robot-1.0.64-SNAPSHOT/" "iw-robot-1.0.64-SNAPSHOT.tgz" "iw-robot-1.0.63-SNAPSHOT.tgz" "iw-robot-1.0.61/" "resources/" "PASOS-NUEVA-VERSION.txt" "app-test.edn" "target/" "iw-robot-1.0.51/" "config/" "figwheel_server.log" "bin/" "core.js" "test/" ".DS_Store" "PASOS-DIGITAL-OCEAN.txt" "docker/" "leveldb/" "project.clj" "iw-robot-1.0.63-SNAPSHOT/" "app-log/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/robot/" (23226 22144 164390 9000) "iw-robot/" "iw-robot.docs/" ".DS_Store" "iw-robot.site/" "../" "./")
+
+ ("/Users/dan/" (23441 36606 994592 629000) ".bnd/" "logo_santander.jpg" ".h2.server.properties" ".yjp/" ".viminfo" ".nbprofiler/" ".bash_history" ".soapuios/" ".putty/" ".gitconfig" ".cache/" "fastonosql.log" "Downloads/" ".Xauthority" ".gem/" ".bash_profile" "github_deploy_key.pub" ".m2/" ".vscode/" ".IdeaIC15/" ".babel.json" ".pgpass" "Documents/" ".npm/" ".credentials/" ".travis/" "java_error_in_idea.hprof" ".Trash/" ".gradle/" ".source-highlight/" "Applications/" "Movies/" ".ssh/" "ismanteinance.clj" ".ansible/" ".sh_history" ".freerdp/" "pgadmin.log" "santander.jpg" ".x2goclient/" "Public/" ".matlab/" ".lein/" ".WebComponents/" ".bash_sessions/" ".cups/" ".gitignore_global" ".android/" ".emacs.d/" "test.mv.db" ".oracle_jre_usage/" ".lesshst" ".electron/" "Library/" "Desktop/" ".jprofiler10/" ".rnd" ".atom/" "Pictures/" ".psql_history" ".local/" ".blade/" ".rebel_readline_history" ".vnc/" ".bashrc" ".subversion/" ".store/" ".jprofiler9/" ".wget-hsts" ".hgignore_global" ".CFUserTextEncoding" ".liferay/" ".gnupg/" ".DS_Store" ".vim/" ".gfclient/" "strauz.trace.db" ".pgadmin_histoqueries" ".google_libcloud_auth.gnp-iwcfdi" ".node-gyp/" ".x2go/" ".squirrel-sql/" "Repository/" ".docker/" "Developer/" ".sqlmap/" "Music/" ".config/" ".Xauthority.bak" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/bin/" (23352 47643 362464 723000) "get-data.sh" "run.sh" "start-caudal-with-els.sh" "make-distro.sh" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/" (23226 41539 745425 799000) "caudal/" "caudal-bot-server.bk/" "caudal-wiki.bitbucket/" "caudal.site/" "caudal.docs/" "caudal-dashboard/" "caudal-oss/" ".DS_Store" "caudal-bot-server/" "caudal-clean/" "../" "./")
+
+ ("/Users/dan/Developer/lab/" (23423 42793 49223 714000) "SCPTransport/" "mail-utils/" "wildfly-9.0.1.Final/" "cinemex-rest.zip" "test01/" "docker-logrotate.bk/" "caudal-utils/" "caudal-docker/" "example-subfolder/" "log-test/" "caudal-oracle-monitor/" "ldb/" "caudal-lab/" "fonts/" "google-api-java-client-samples/" "lab-hsm/" "startbootstrap-sb-admin-2/" "sheet/" "google-charts/" "re-frame/" "jenkins/" "camera-recorder/" "metric-generator/" "re-mdl/" "iw-jenkins/" "electron-react-tutorial/" "riemann-java-client/" "gwt-incubator-tableaddons/" "riemann-0.2.11.tar.bz2" "log4j-riemann-appender/" "electron-react/" "caudal-0.7.4.1/" "MapGL/" "lifetotal/" "webica/" "samba/" "geom/" "logs/" "sql2csv/" "jenkins-status-badges-plugin/" "docker-logrotate/" "riemann-elastic/" "stanley-monitor/" "colour-schemes/" "hook-install/" "iterm-colors/" "hook-install-init/" "cinemex/" "logstash-input-beats/" "simple/" "monitor.zip" "vaadin-lumo-styles/" "jmx-queue/" "batallanaval.zip" "my-app/" "java.jmx/" "camera-capture/" "my-slack-bot/" "jmx.clj" "cinemex-rest/" "compose/" "mssql-client/" "caudal-rpm/" "examen/" "stanley-monitor-pendientes/" "oracle-monitor.tgz" "zip-test/" "arp-jmx/" "sqlmap/" "riemann-0.2.11/" "batallanaval/" "elastisch/" "solarized.itermcolors" "google-spreadsheet/" ".DS_Store" "cinemex-rest.bk/" "jdbc-client-portable/" "docker/" "monitor/" "db.sql" "mp3.mp3" "key-provider/" "proto-repl-demo/" "manual-carga/" "strauz-xml-test-tool/" "dashboard-demo/" "butter-desktop/" "jackplay/" "c14n/" "ring-edn/" "appender/" "../" "./")
+
+ ("/Users/dan/Developer/lab/jdbc-client-portable/" (23442 2700 216631 247000) "src/" ".git/" "ls/" "README.md" "target/" "bin/" "LICENSE" "project.clj" "../" "./")
+
+ ("/Users/dan/Developer/lab/jdbc-client-portable/bin/" (23442 2700 216607 355000) "../" "./")
+
+ ("/Users/dan/Downloads/" (23441 57672 775666 557000) "bitnami-aws-099671430473.pem" "StartGuide.pdf" "image.png" "MobaXterm.ini" "Screenshot_2018-07-30 Kibana.png" "DEF_CV_IW_2018.doc" "Agentes.edn" "falcon(1).edn" "Lecture01.pdf" "image(2).png" "MultiPass-for-HTTP-basic-authentication_v0.7.4.crx" "download (3)" "estandar-02.xlsx" "banamex.csv" "nssm-2.24 (1).zip" "data-private.tgz" "Screenshot_2018-07-30 Player Network I O - Kibana.png" "Analytics Agosto 2018.zip" "stratacache.png" "stratacache2.png" "yo.png" "download (9)" "screencapture-25-79-76-84-5601-app-kibana-2018-07-02-00_12_49.png" "MobaXterm_Personal_10.4.exe" "caudal.log" "1665034475.pdf" "CV_2018.docx" "axion.jpg" "Test-Alex-ChatBot-20180705T200907Z-001.zip" "mdt.png" "image(3).png" "bancomer-efectivo.sql" "paymentforms.json" "run.txt" "Capture.PNG" "integration.edn" "FullScreenCaptureExample.java" "bancomer3.exp" "Screenshot_2018-07-30 Discover - Kibana(1).png" "jprofiler_macos_10_1_2.dmg" "Skye.edn" "Agentes (3).edn" "~$test030918_2.xlsx" "Screenshot_2018-08-02 MainDashboard - Kibana.png" "selenium.tgz" "Estado_de_Cuenta.pdf" "CV_2018.pdf" "banamex.sql" "scala-config.clj" "ip-browser.edn" "Memory.edn" "default.css" "santander.png" "image(4).png" "image(5).png" "Error tasks 10082018.txt" "download" "santander-01.txt" "screencapture-25-79-76-84-5601-app-kibana-2018-07-02-00_11_53.png" "ideaIC-2018.2.1.dmg" "FIBOCOM_L850-GL Hardware User Manual_V1.0.3.pdf" "FALCON.edn" "manual_usuario_be_pagos_v2.2 (1).docx" "download (7)" "zurich.edn" "banorte-01.txt" "PROCOM(1).edn" "integration.amazon.edn" "my-programa.sh" "Analytics Agosto 2018/" "caudal-0.7.15-SNAPSHOT.tar.bz2" "download (4)" "kibana.yml" "otro-uno.xlsx" "test.jpg" "bancomer.jpg" "iw-robot-1.0.63-SNAPSHOT.tar.bz2" "bancomer.utf8.csv" "Screenshot_2018-07-30 Player OS Metrics - Kibana.png" "Firefox 59.0.3.dmg" "logs-pre/" "santander.csv" "download (5)" "LogMeInClientMac.dmg" "handler.txt" "Create a new Gist.html" "banamex.utf8.csv" "postgresql-42.2.4.jar" "otro.xlsx" "citi.png" "export(2).json" "MobaXterm_Portable_v10.6.zip" "FullScreenshot.jpg" "nssm-2.24.zip" "download (6)" "santander.utf8.csv" "Rational license notification.pdf" "caudal.svg" "screenshot.png" "server-jre-8u172-linux-x64.tar.gz" "BE-PDLT-862, V 1.0 Código Transacciones.xlsx" ".com.google.Chrome.JP0ZAN" "jtds-1.3.1-dist.zip" "CV .Net Sr.   Luis F..pdf" "bancomer.csv" "Curso Feb2018 _ Interware.xlsx" "2018_08_27/" "IMG_2702.JPG" "banamex-02.txt" "Screenshot_2018-07-20 Player Network I O - Kibana.png" "GifSequenceWriter.java" "portal-agentes.edn" "visualvm_141/" "elastic.pem" "prosa-config.clj" "example" "Screenshot_2018-07-19 ci-example Config [Jenkins].png" "export(4).json" "banamex-01.txt" "reporte.edn" "Screen Shot 2018-06-22 at 19.34.47.png" "Skye (1).edn" "chatbot/" "visualvm_141.zip" ".localized" "FullScreenCaptureExample.class" "stackfire.tgz" "BE-PDLT-862, V 1.1 Código Transacciones.xlsx" "enhanced-tilemap-v2017-09-23-5.6.1.zip" "Screenshot_2018-08-02 MainDashboard - Kibana(1).png" "nonikedecirtebro.jpg" "export(3).json" "test030918_2.xlsx" "ACT.edn" "GenericDAOImpl.java" "PlanInstalacionBEPagos-PRE_v1.5.xlsx" "unificado.clj" "MAPEO LAYOUT BANCOS.xlsx" "laravel.log" "Screenshot_2018-07-30 Player Network Data Received - Kibana.png" "banamex-efectivo.sql" "export.json" "screencapture-25-79-76-84-5601-app-kibana-2018-07-02-07_10_19.png" ".DS_Store" "export(1).json" "commons.style.css" "santander.sql" "catCFDI.xls" "download (2)" "bancomer-01.txt" "spTAsignaciones_Insertar.sql" "santander-final.sql" "caudal.png" "Untitled Diagram.png" "test220818 (1).xlsx" "cognicious.png" "get-ip.edn" "PROCOM.edn" "citi.svg" "~$MAPEO LAYOUT BANCOS.xlsx" "leveldb/" "ciinterwaremx.crt" "fwdpruebabepagos/" "download (8)" "alex/" "axion-win-x64.zip" "Screenshot_2018-07-30 Discover - Kibana.png" "manual_usuario_be_pagos_v2.3.docx" "operationCodesv2.json" "download (1)" "santander-inserts.sql" "Create a new Gist_files/" "Screenshot_2018-07-30 Kibana(1).png" "jtds-1.3.1-dist/" "queries-table-size.sql" "CV_2016.docx" "Screenshot_2018-08-13 Main - Kibana.png" "LogMeInHamachi.zip" "RFP SEGUROS MONTERREY.docx" "bancomer.sql" "selenium/" "21822631.pdf" "image(1).png" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/buzone/cpagos-concilia/" (23439 4976 569047 124000) "src/" ".idea/" "data/" "NAME" ".git/" "build" "srun" "Jenkinsfile" "VERSION" ".gitignore" "cpagos-concilia.iml" "logs/" "publish" "README.md" "pom.xml" "target/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/buzone/cpagos-concilia/src/" (23412 20015 580870 237000) "main/" "assembly/" "test/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/buzone/cpagos-concilia/src/main/" (23412 20015 577198 469000) "java/" "resources/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/buzone/cpagos-concilia/src/main/resources/" (23430 54469 749172 907000) "sql/" "application-pre.yml" "application-local.yml" "application.yml" "spring-config.xml" "application-dev.yml" "bootstrap.properties" "application-prod.yml" "application-qa.yml" "logback-spring.xml" "log4j2.xml" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/buzone/cpagos-concilia/src/main/resources/sql/" (23430 54469 751424 3000) "payment-block-queries.xml" "payment-queries.xml" "account-queries.xml" "conciliation-queries.xml" "cfdi-queries.xml" "../" "./")
+
+ ("/Users/" (23387 49674 516405 645000) "Shared/" "dan/" ".localized" "../" "./")
+
+ ("/Users/dan/Developer/" (23230 52206 894607 628000) "repo/" "scp-tunnel.clj" "iw/" "clojure-101/" "react-101/" "cognicious/" "devenv-scripts/" "hamachi-installer/" "lab/" "danielef/" "jcc/" ".DS_Store" "danielef.github.io/" "../" "./")
+
+ ("/Users/dan/Developer/iw/" (23395 31233 555874 247000) "alpine-lein-maven/" "leveldb-micro/" "local-repo/" "ci-example/" ".DS_Store" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/" (23412 19988 920374 826000) "caudal/" "buzone/" "robot/" "strauz/" ".DS_Store" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/buzone/" (23412 20118 652571 845000) "cpagos-report/" "cpagos-registry/" "cpagos-timbre/" "cpagos-concilia/" "cpagos-web/" "cpagos-tasks/" "cpagos-security/" "cpagos-genera/" "cpagos-parse/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/buzone/cpagos-security/" (23437 53955 199420 342000) "src/" ".idea/" "data/" ".git/" "build" "srun" "Jenkinsfile" ".gitignore" "cpagos-security.iml" "logs/" "publish" "README.md" "pom.xml" "CDPBFI-19-como-desarrollador-backend-nec" "target/" "dremote:" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/buzone/cpagos-security/src/" (23412 20100 174722 802000) "main/" "assembly/" "test/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/buzone/cpagos-security/src/main/" (23412 20100 165527 913000) "java/" "resources/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/buzone/cpagos-security/src/main/resources/" (23437 42480 256491 812000) "sql/" "application-pre.yml" "application-local.yml" "application.yml" "spring-config.xml" "db/" "application-dev.yml" "bootstrap.properties" "application-prod.yml" "application-qa.yml" "watch.sql" "logback-spring.xml" "schema.sql" "data.sql" "install/" "initialization.sql" "log4j2.xml" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/" (23409 8366 598438 819000) "src/" "caudal-0.7.15-SNAPSHOT.tgz" "hs_err_pid33046.log" "siger2_server3.log" "bancrea.log.2017-09-07" "start.sh" "strauz_caudal_agent.clj" "siger2_server1.log" "bea-msg/" "siger2_server4-anomaly/" ".git/" "ob.log.csv" "salida.txt" "resources-bk/" "lib/" "atm.log" "ALERTAS_28_29_062017_19_07.csv" "caudal-dashboard.bk/" "test-test-dump.edn" ".gitignore" "caudal-0.7.12/" "logs" ".lein-repl-history" "README.md" "caudal-0.7.14/" "caudal-0.7.13/" "siger2_server1-app-error.edn" ".gitmodules" "caudal-0.7.15-SNAPSHOT/" "colors.edn" "pom.xml" "caudal.svg" "data-sink/" "siger2_server1.log2" "find-max-seg.awk" "resources/" "target/" "cometarios-cathel.txt" "1525299632230-BEA-101129.edn" "checker/" "distro/" "security/" "config/" "figwheel_server.log" "CHANGELOG.md" "bin/" "bea.edn" "test/" "LICENSE" ".DS_Store" "docker/" "my.log" "siger2_server1-anomaly/" "bea.html" "project.clj" "../" "./")
+
+ ("/Users/dan/Developer/lab/jdbc-client-portable/src/jdbc_client_portable/" (23427 64734 896356 289000) "core.clj" "../" "./")
+
+ ("/Users/dan/Developer/lab/jdbc-client-portable/src/" (23423 42991 559459 271000) "jdbc_client_portable/" "../" "./")
+
+ ("/Users/dan/Developer/lab/cinemex-rest/config/" (22764 13161 0 0) "log4j.properties" "rest-config.edn" "rest-config.edn.ok" "../" "./")
+
+ ("/Users/dan/Developer/lab/cinemex-rest/" (22856 60390 0 0) "src/" "data/" ".git/" "lib/" "logs/" "README.md" "bms/" "target/" "config/" "bin/" "test/" "docker/" "project.clj" "../" "./")
+
+ ("/Users/dan/Developer/lab/mssql-client/src/mssql_client/" (23420 18851 426335 128000) "core.clj" "../" "./")
+
+ ("/Users/dan/Developer/lab/mssql-client/" (23420 18869 747326 954000) "src/" "doc/" ".gitignore" "README.md" "resources/" ".hgignore" "target/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "../" "./")
+
+ ("/Users/dan/Developer/lab/mssql-client/src/" (23420 18710 201302 623000) "mssql_client/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/buzone/cpagos-security/src/main/java/mx/com/interware/cpagos/security/bo/" (23412 20100 157737 294000) "SecurityBO.java" "BankBO.java" "CustomerBO.java" "AccountBO.java" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/buzone/cpagos-security/src/main/java/mx/com/interware/cpagos/security/" (23412 20100 164501 427000) "rest/" "bo/" "cfg/" "dao/" "ex/" "util/" "Application.java" "dto/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/src/clj/mx/interware/robot/util/" (23403 23124 8440 501000) "selenium_common.clj" "selenium_direct.clj" "j3270.clj" "telegram.clj" "basic.clj" "google_spreadsheet.clj" "selenium.clj" "../" "./")
+
+ ("/Users/dan/Developer/danielef/scala-clj/src/scala_clj/" (23402 29366 624024 159000) "players.clj" "health.clj" "authentication.clj" "heartbeats.clj" "core.clj" "util.clj" "../" "./")
+
+ ("/Users/dan/Developer/danielef/scala-clj/" (23402 28637 868995 242000) "src/" ".git/" "doc/" ".gitignore" "README.md" "resources/" ".hgignore" "target/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "../" "./")
+
+ ("/Users/dan/Developer/danielef/scala-clj/src/" (23352 25957 5445 331000) "scala_clj/" "../" "./")
+
+ ("/Users/dan/.lein/" (23389 2082 619146 773000) "self-installs/" "credentials.clj" "profiles.clj~" "profiles.clj" "repl-history" "indices/" "../" "./")
+
+ ("/Users/dan/Developer/cognicious/lienzo/src/sass/" (23374 9836 821642 303000) "radio.scss" "button.scss" "textfield.scss" "checkbox.scss" "select.scss" "../" "./")
+
+ ("/Users/dan/Developer/cognicious/lienzo/" (23374 12228 977496 461000) "src/" ".git/" ".gitignore" "README.md" ".nrepl-port" "resources/" "target/" "figwheel_server.log" "test/" "LICENSE" "project.clj" "demo/" ".lein-failures" "../" "./")
+
+ ("/Users/dan/Developer/cognicious/lienzo/target/" (23372 64385 676323 885000) "stale/" "classes/" "../" "./")
+
+ ("/Users/dan/Developer/cognicious/lienzo/resources/public/" (23302 7043 557592 879000) "tests.html" "js/" "css/" "index.html" "../" "./")
+
+ ("/Users/dan/Developer/cognicious/lienzo/resources/" (23135 40519 699588 772000) "public/" "css/" "../" "./")
+
+ ("/Users/dan/Developer/cognicious/lienzo/test/cljs/lienzo/" (23373 18002 678346 474000) "doo.cljs" "macros.clj" "checkbox_test.cljs" "textfield_test.cljs" "radio_test.cljs" "select_test.cljs" "tests.cljs" "diagram_test.cljs" "containers.cljs" "button_test.cljs" "../" "./")
+
+ ("/Users/dan/Developer/cognicious/" (23346 51934 833048 140000) "axion/" "face-detection/" "hexo-theme-ochuunn/" "lienzo/" "initial-sketch/" "core.app/" "site/" "prion/" "cognicious.github.io/" "lienzo.init/" "my-slack-bot/" "pluggable-demo/" ".DS_Store" "../" "./")
+
+ ("/Users/dan/Developer/cognicious/lienzo/src/cljs/lienzo/components/" (23315 33157 252058 926000) "radio.cljs" "button.cljs" "textfield.cljs" "checkbox.cljs" "select.cljs" "diagram.cljs" "../" "./")
+
+ ("/Users/dan/Developer/cognicious/lienzo/src/" (23363 54430 237315 731000) "sass/" "cljs/" "styles/" "../" "./")
+
+ ("/Users/dan/Developer/cognicious/lienzo/src/styles/" (23363 54539 147173 884000) "lienzo/" "../" "./")
+
+ ("/Users/dan/Developer/cognicious/lienzo/src/styles/lienzo/" (23363 54595 902005 427000) "theme/" "../" "./")
+
+ ("/Users/dan/Developer/cognicious/lienzo/src/styles/lienzo/theme/" (23363 56626 502348 402000) "default.clj" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/config/" (23358 11768 787778 642000) "selenium-init-config.edn" "banner.txt" "iw-robot-02-operations-config.edn" "iw-robot-01-config.edn" "log4j2.xml" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/src/clj/mx/interware/robot/" (23069 44309 0 0) "main/" "migrate/" "tests/" "web/" "util/" "core/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/src/clj/mx/interware/util/" (23069 44309 0 0) "http.clj" "io.clj" "http_client.clj" "date_util.clj" "file_util.clj" "crypt_util.clj" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/src/clj/mx/interware/" (23069 44309 0 0) "keyval/" "robot/" "prosa/" "util/" "test/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/src/clj/mx/" (23069 44309 0 0) "interware/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/src/clj/" (23069 44309 0 0) "mx/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/src/" (23069 44309 0 0) "clj/" "cljs/" "js/" "less/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/config/" (23352 53384 925127 746000) "caudal-config-invex.clj" "caudal-config.clj" "stats/" "strauz_caudal_agent.clj" "siger2.clj" "test-config.clj" "tcp-config.clj" "metrics.edn" "beacat.clj" "stats-2016/" "zurich-cfdi.clj" "subscribers.edn" "scala-config.clj" "telegram.clj" "similares.clj" "strauz_caudal_hub.clj" "tailer-config.clj/" "batcher-config.clj" "stats-test/" "jmx.clj" "caudal-config-twitter.clj" "bancrea.clj" "siger.clj" "iw.clj" "robot.clj" "config-bbva.clj" "rum.clj" "bbva-config.clj" "caudal-config.edn" "log4j2.xml" "caudal-config2.clj" "../" "./")
+
+ ("/Users/dan/Developer/cognicious/axion/" (23344 37667 986700 499000) "src/" ".git/" "doc/" ".gitignore" "README.md" "resources/" ".hgignore" "target/" "CHANGELOG.md" "bin/" "test/" "LICENSE" "out.txt" "project.clj" "../" "./")
+
+ ("/Users/dan/Developer/cognicious/axion/resources/" (23342 24564 57700 357000) "oshi.json.properties" "../" "./")
+
+ ("/Users/dan/Developer/cognicious/axion/src/cognicious/" (23340 12586 507637 996000) "axion.clj" "../" "./")
+
+ ("/Users/dan/Developer/cognicious/axion/src/" (23340 12586 507570 322000) "cognicious/" "../" "./")
+
+ ("/Users/dan/.m2/repository/iw/morse/" (23341 5674 752217 353000) "maven-metadata-local.xml" "0.2.5/" "0.4.0/" "0.3.0/" "../" "./")
+
+ ("/Users/dan/.m2/repository/iw/morse/0.3.0/" (23060 32372 0 0) "_remote.repositories" "morse-0.3.0.jar" "morse-0.3.0.pom" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/iw-robot-1.0.63-SNAPSHOT/bin/" (23339 5368 259650 524000) "clean-old-childs.awk" "clean-old-childs.sh" "memavail.sh" "run.sh" "chromes.sh" "run-headless.sh" "run.bat" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/iw-robot-1.0.63-SNAPSHOT/" (23339 5369 356574 813000) "NAME" "lib/" "VERSION" "resources/" "config/" "bin/" "project.clj" "app-log/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/docker/" (23339 5240 339260 648000) "iw-robot-1.0.63-SNAPSHOT.tgz" "Dockerfile" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal.site/source/docs/" (23337 51216 682228 897000) "twitter-04.jpg" "twitter-02.jpg" "twitter-03.jpg" "diagram-streamers.svg" "diagram-basic.svg" "twitter-01.jpg" "lab6-01.svg" "lab3.md" "lab7.md" "lab5-08.png" "contributing.md" "lab5-09.png" "java.md" "configuration.md" "lab6.md" "index.md" "lab2.md" "lab5.md" "lab5-02.png" "diagram-elastic.svg" "lab5-03.png" "lab5-01.png" "lab1.md" "leiningen.md" "lab5-04.png" "lab5-10.png" "lab5-05.png" "lab4.md" "lab5-07.png" "lab5-06.png" "setup.md" "troubleshooting.md" "java-01.png" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal.site/themes/navy/source/" (23151 11975 13107 287000) "js/" "css/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/resources/public/css/" (23119 45070 0 0) "dialog-polyfill.css" "style.css" "material.min.css" "caudal.css" "material.css" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/resources/public/" (23337 21224 399759 374000) "vendor/" "pages/" "index.html.bk" "css.bk/" "img/" "caudal.svg" "js/" "dist/" "css/" "index.html" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/resources/" (23046 20472 0 0) "public/" "security/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/src/clj/mx/interware/caudal/web/" (23046 20099 0 0) "rest_handle.clj" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/src/cljs/mx/interware/caudal/dashboard/views/" (23119 45070 0 0) "server.cljs" "doughnut.cljs" "bars.cljs" "rate.cljs" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/src/cljs/mx/interware/caudal/dashboard/" (23119 45070 0 0) "views/" "core.cljs" "util.cljs" "events.cljs" "db.cljs" "subs.cljs" "views.cljs" "config.cljs" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/src/cljs/mx/interware/caudal/" (22990 40181 0 0) "dashboard/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/src/cljs/mx/interware/" (22990 40181 0 0) "caudal/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/src/cljs/mx/" (22990 40181 0 0) "interware/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/src/cljs/" (22990 40181 0 0) "mx/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal/src/clj/mx/interware/caudal/core/" (22990 40181 0 0) "listener.clj" "immutant_avout.clj" "main.clj" "folds.clj" "immutant_state.clj" "starter.clj" "global.clj" "parsers.clj" "repl.clj" "scheduler_server.clj" "atom_state.clj" "starter_dsl.clj" "state.clj" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal.site/source/es/docs/" (23336 28174 450274 535000) "lab6-01.png" "lab3.md" "lab5-08.png" "contributing.md" "lab5-09.png" "java.md" "configuration.md" "lab6.md" "index.md" "lab5-19.png" "lab5-18.png" "lab2.md" "lab5.md" "lab5-16.png" "lab5-02.png" "lab5-03.png" "lab5-17.png" "lab5-01.png" "lab5-15.png" "lab1.md" "leiningen.md" "lab5-14.png" "lab5-04.png" "lab5-10.png" "lab5-11.png" "lab5-05.png" "lab4.md" "lab5-13.png" "lab5-07.png" "lab5-06.png" "lab5-12.png" "setup.md" "troubleshooting.md" "java-01.png" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal.site/source/es/" (23199 23719 841895 279000) "index.jade" "docs/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal.site/source/" (23226 52680 352720 970000) "browserconfig.xml" "logo.svg" "downloads/" "iw.svg" "robots.txt" "es/" "_data/" "logo.png" "index.jade" "docs/" "_posts/" "favicon.ico" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal.site/" (23267 65124 834372 463000) "themes/" ".git/" "scripts/" "_config.yml" "package.json" ".gitignore" "public/" "README.md" "caudal.docs/" "node_modules/" "source/" ".ci/" "LICENSE" "db.json" ".DS_Store" "scaffolds/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal.site/themes/" (23151 11975 3037 917000) "navy/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal.site/themes/navy/" (23151 11975 10557 467000) "languages/" "source/" "layout/" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/caudal/caudal.site/themes/navy/languages/" (23151 11975 3585 951000) "en.yml" "es.yml" "../" "./")
+
+ ("/Users/dan/Developer/iw/local-repo/robot/iw-robot/src/clj/mx/interware/robot/core/" (23317 21785 65718 687000) "essentials.clj" "util.clj" "operations.clj" "state.clj" "../" "./")
+
+ ("/Users/dan/Developer/cognicious/lienzo/test/" (23289 50068 192826 145000) "cljs/" "../" "./")
+
+ ("/Users/dan/Developer/cognicious/lienzo/test/cljs/" (23289 50247 579098 827000) "lienzo/" "../" "./")
+
+ ("/Users/dan/Downloads/liferay-7-solid-portlet-example/gradle/wrapper/" (23300 10973 176324 545000) "gradle-wrapper.properties" "gradle-wrapper.jar" "../" "./")
+
+ ("/Users/dan/Downloads/liferay-7-solid-portlet-example/gradle/" (23300 10973 174607 230000) "wrapper/" "../" "./")
+
+ ("/Users/dan/Downloads/liferay-7-solid-portlet-example/configs/dev/" (23300 10973 167699 749000) "portal-ext.properties" "../" "./")
+
+ ("/Users/dan/Downloads/liferay-7-solid-portlet-example/configs/prod/" (23300 10973 171916 489000) "osgi/" "portal-ext.properties" "../" "./")
+
+ ("/Users/dan/Downloads/liferay-7-solid-portlet-example/configs/" (23300 10973 172560 458000) "dev/" "local/" "uat/" "prod/" "../" "./")
+
+ ("/Users/dan/Downloads/liferay-7-solid-portlet-example/" (23300 11759 956530 586000) "settings.gradle" "modules/" "gradlew.bat" ".git/" "gradle.properties" "blade.jar" "init-workspace.sh" ".gradle/" "build.gradle" "configs/" ".gitignore" "gradlew" "gradle/" "README.md" "../" "./")
+
+ ("/Users/dan/Downloads/liferay-7-solid-portlet-example/modules/" (23300 10973 180754 820000) "VaadinPortlet/" "../" "./")
+
+ ("/Users/dan/Downloads/liferay-7-solid-portlet-example/modules/VaadinPortlet/" (23300 11401 476436 862000) "src/" "build/" "build.gradle" "bnd.bnd" ".gitignore" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
