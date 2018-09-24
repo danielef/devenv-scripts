@@ -11,3 +11,4 @@ brew install leiningen
 brew install htop
 brew install tree
 brew install watch
+brew install wget
