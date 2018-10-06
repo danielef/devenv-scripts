@@ -81,8 +81,6 @@
 
 (setq column-number-mode t)
 
-;;
-(add-hook 'after-init-hook #'global-emojify-mode)
 
 ;; automodes
 (add-to-list 'auto-mode-alist '("Jenkinsfile$" . groovy-mode))
