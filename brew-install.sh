@@ -13,5 +13,9 @@ brew install tree
 brew install watch
 brew install wget
 
+brew cask install iterm2
+
+# Install openjdk
+brew tap adoptopenjdk/openjdk
 brew cask install adoptopenjdk8
 brew cask install adoptopenjdk11
