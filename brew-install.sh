@@ -11,3 +11,6 @@ brew install htop
 brew install tree
 brew install watch
 brew install wget
+
+brew cask install adoptopenjdk8
+brew cask install adoptopenjdk11
