@@ -6,6 +6,7 @@
 brew install emacs
 brew install ImageMagick
 brew install python3
+brew install pygmentize
 brew install leiningen
 brew install htop
 brew install tree
