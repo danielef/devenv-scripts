@@ -17,9 +17,11 @@ alias finder='open -a Finder ./'
 # emacs standard
 # brew install emacs --with-cocoa
 # alias emacs='/usr/local/opt/emacs/Emacs.app/Contents/MacOS/Emacs --no-splash --fullscreen'
+
+# emacs > 24 supports cocoa by default
 alias emacs='open -a Emacs'
 
-alias j10="export JAVA_HOME=`/usr/libexec/java_home -v 10`; java -version"
+alias j11="export JAVA_HOME=`/usr/libexec/java_home -v 11`; java -version"
 alias j8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8`; java -version"
 
 # 
