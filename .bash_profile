@@ -5,7 +5,6 @@
 
 # Aliases
 alias ls='ls -G'
-alias github='/Applications/GitHub\ Desktop.app/Contents/MacOS/GitHub\ Desktop'
 alias finder='open -a Finder ./'
 
 # emacs-mac
