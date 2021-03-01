@@ -12,6 +12,9 @@ brew install --cask adoptopenjdk8
 brew install --cask adoptopenjdk11
 
 brew install --cask emacs
+# Fix font rendering
+defaults write org.gnu.Emacs AppleFontSmoothing -int 0
+
 brew install ImageMagick
 brew install python3
 brew install leiningen
