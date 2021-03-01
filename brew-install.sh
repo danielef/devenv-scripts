@@ -4,14 +4,14 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Terminal
-brew cask install iterm2
+brew install --cask iterm2
 
 # Install openjdk
 brew tap adoptopenjdk/openjdk
-brew cask install adoptopenjdk8
-brew cask install adoptopenjdk11
+brew install --cask adoptopenjdk8
+brew install --cask adoptopenjdk11
 
-brew cask install emacs
+brew install --cask emacs
 brew install ImageMagick
 brew install python3
 brew install leiningen
