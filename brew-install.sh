@@ -23,6 +23,5 @@ brew install tree
 brew install watch
 brew install wget
 brew install nvm
+brew install pygments
 
-# Python deps
-pip3 install pygmentize
