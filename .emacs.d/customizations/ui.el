@@ -28,14 +28,15 @@
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 (add-to-list 'load-path "~/.emacs.d/themes")
 ;(load-theme 'smyx t)
-(load-theme 'atom-one-dark t)
+;(load-theme 'atom-one-dark t)
+(load-theme 'material t)
 
 
 ;; cider help banner
 (setq cider-repl-display-help-banner nil)
 
 ;; increase font size for better readability
-(set-frame-font "Monaco" nil t)
+(set-frame-font "SF Mono" nil t)
 (set-face-attribute 'default nil :height 120)
 
 ;; Uncomment the lines below by removing semicolons and play with the
