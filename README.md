@@ -18,3 +18,7 @@ ln -s .bash_profile $HOME/.bash_profile
 source  $HOME/.bash_profile
 ```
 
+Brew Installation:
+```
+./brew-install.sh
+```
