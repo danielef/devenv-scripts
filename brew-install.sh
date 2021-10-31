@@ -24,4 +24,5 @@ brew install watch
 brew install wget
 brew install nvm
 brew install pygments
+brew install ffmpeg
 
