@@ -10,6 +10,7 @@ brew install --cask iterm2
 brew tap adoptopenjdk/openjdk
 brew install --cask adoptopenjdk8
 brew install --cask adoptopenjdk11
+brew install clojure/tools/clojure
 
 brew install --cask emacs
 # Fix font rendering
