@@ -19,8 +19,8 @@ alias finder='open -a Finder ./'
 
 # emacs > 24 supports cocoa by default
 alias emacs='open -a Emacs'
-
-alias j11="export JAVA_HOME=`/usr/libexec/java_home -v 11`; java -version"
+alias j17="export JAVA_HOME=`/usr/libexec/java_home -v 17`; java -version"
+alias j11="export JAVA_HOME=`/usr/libexec/java_home -v 11.0.15`; java -version"
 alias j8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8`; java -version"
 
 # 
