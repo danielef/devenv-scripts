@@ -21,7 +21,7 @@ alias finder='open -a Finder ./'
 # brew install --cask emacs
 # installed in /Applications but linked as /usr/local/bin/emacs
 # also could work with:
-# alias emacs='open -a Emacs'
+# alias emacs='open -a Emacs' but with errors taking arguments :\
 
 alias j17="export JAVA_HOME=`/usr/libexec/java_home -v 17`; java -version"
 alias j11="export JAVA_HOME=`/usr/libexec/java_home -v 11.0.15`; java -version"
