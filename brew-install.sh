@@ -7,8 +7,7 @@
 brew install --cask iterm2
 
 # Install openjdk
-brew tap adoptopenjdk/openjdk
-brew install --cask adoptopenjdk25
+brew install --cask temurin@25
 brew install clojure/tools/clojure
 
 brew install --cask visual-studio-code
